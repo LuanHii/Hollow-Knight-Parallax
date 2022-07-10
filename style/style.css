@@ -1,0 +1,112 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: Trajan;
+    src: url(../fontes/Trajan\ Pro\ Regular.ttf);
+}
+
+@font-face {
+    font-family: perpeta;
+    src: url(../fontes/perpeta.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-height: 100vh;
+    background-color: rgb(12, 11, 11);
+}
+
+header {
+    font-family: Trajan;
+    font-size: 40px;
+    align-content: justify;
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 40px;
+}
+
+section {
+    padding-top: 20vh;
+    padding-bottom: 20vh;
+    padding-left: 30px;
+    line-height: 3em;
+    font-size: 3.5vh;
+
+}
+
+section.image {
+
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    box-shadow: 1px 4px 3px rgba(0, 0, 0, 0.596);
+
+}
+
+section>p {
+    display: inline-block;
+    padding: 5px;
+    padding-top: 10px;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.671);
+    background-color: rgba(0, 0, 0, 0.37);
+    border-radius: 10px;
+    font-family: perpeta;
+    color: rgb(226, 223, 223);
+}
+
+
+
+
+section.image>p {
+    display: inline-block;
+    padding: 5px;
+    padding-top: 10px;
+    text-shadow: 1px 1px 0px black;
+    background-color: rgba(0, 0, 0, 0.096);
+
+
+}
+
+section#hollow {
+    background-image: url('../images/hollowknight.png');
+    background-position: top center;
+
+
+
+}
+
+section#img1 {
+    background-image: url('../images/paleKing01.png');
+
+}
+
+section#img2 {
+    background-image: url('../images/paleKing02.png');
+
+}
+
+section#seal {
+    background-image: url('../images/seal.png');
+}
+
+
+footer a {
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    box-shadow: 1px 1px 1px black;
+}
